@@ -5,7 +5,7 @@ Autovettura_id                 PK     BIGINT                                    
 Marca                                 VARCHAR                                          NOTNULL
 Modello                               VARCHAR                                          NOTNULL
 Anno Prima Immatricolazione           DATE                                             NOTNULL
-Mano                                  TYNYINT                                          NOTNULL            DEFAULT 1
+Mano                                  TYNYINT(1)                                       NOTNULL            DEFAULT 1
 Prezzo                                MEDIUMINT                                        NOTNULL
 Cilindrata                            SMALLINT                                         NOTNULL
 Alimentazione                         VARCHAR(3)  Es.: B,D,G,BG,IB,ID,PB,PD,MBM,E      NOTNULL
