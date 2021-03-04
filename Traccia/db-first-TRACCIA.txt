@@ -1,0 +1,31 @@
+Creare la struttura della vostra tabella, che sarà molto utile per il vostro nuovissimo e promettente concessionario di auto usate.
+
+Utilizzare i types e gli attributi. 
+Identificare la Primary Key (PK) e dove potrebbero essere definiti i valori di default e delle chiavi univoche (unique)
+---------------------------------------------------------------------------
+Live coding: 
+
+https://github.com/ott-fogliata/boolean-code/blob/main/db-theroy/libri.txt
+Qui di seguito l'output:
+
+Proviamo ad immaginare la struttura di una tabella che contiene
+informazioni sui libri contenuti in una biblioteca.
+
+database = biblioteca
+tabella = libri
+
+book_id        PK       BIGINT             NOTNULL            AUTO_INCREMENT
+title                   VARCHAR            NOTNULL
+author                  VARCHAR            NULL
+genere                  VARCHAR            NOTNULL
+casa_editrice           VARCHAR            NULL
+prezzo                  DOUBLE(6,2)        NOTNULL            DEFAULT 0.00
+edizione                VARCHAR            NOTNULL
+n_pagine                SMALLINT           NOTNULL
+data_pubblicazione      DATE               NOTNULL
+lingua                  VARCHAR(2)         NOTNULL            DEFAULT en
+usato                   TINYINT(1)         NOTNULL
+isbn                    VARCHAR(17)        NOTNULL            UNIQUE
+---------------------------------------------------------------------------
+Qui i Data Types di MySQL: 
+https://dev.mysql.com/doc/refman/8.0/en/data-types.html
