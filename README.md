@@ -1,5 +1,5 @@
 **BOOLEAN**: *db-first* exercise
-=============================
+================================
 Let's create a structure for a Used Car Showroom **DATA TABLE**.
 ------------------------------------------------------------
 *Let's identify the primary key first and then where to define default and unique keys values.  
