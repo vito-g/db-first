@@ -14,3 +14,6 @@ Cambio                                VARCHAR(1)  Es.: A,M,S,D                  
 Velocità Max                          SMALLINT                                         NOTNULL
 Consumo                               FLOAT(2,1)  Es.: 6,4L/100km, 4,5kg/100km         NOTNULL
 N°Telaio (VIN)                        VARCHAR(17) Es.: 3A2-687FR4-A856T4D2             NOTNULL            UNIQUE
+                                                  (N.B.: i trattini separano
+                                                  3 distinti codici alfanumerici
+                                                  ma non compaiono nel VIN)
