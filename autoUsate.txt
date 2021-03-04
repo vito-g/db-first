@@ -1,16 +1,16 @@
 Database = Autosalone
 Tabella = Autovetture Usate
 
-Autovetture_id                 PK     BIGINT                                         NOTNULL            AUTO_INCREMENT
-Marca                                 VARCHAR                                        NOTNULL
-Modello                               VARCHAR                                        NOTNULL
-Anno Prima Immatricolazione           DATE                                           NOTNULL
-Mano                                  TYNYINT                                        NOTNULL            DEFAULT 1
-Prezzo                                MEDIUMINT                                      NOTNULL
-Cilindrata                            SMALLINT                                       NOTNULL
-Alimentazione                         VARCHAR(3) Es.:B,D,G,BG,IB,ID,PB,PD,MBM,E      NOTNULL
-Trazione                              VARCHAR(3) Es.:A,A+P,I,P,P+A                   NOTNULL
-Cambio                                VARCHAR(1) Es.:A,M,S,D                         NOTNULL
-Velocità Max                          SMALLINT                                       NOTNULL
-Consumo                               FLOAT(2,1) Es.:6,4L/100km, 4,5kg/100km         NOTNULL
-N°Telaio (VIN)                        VARCHAR(17) Es.:3A2-687FR4-A856T4D2            NOTNULL            UNIQUE
+Autovettura_id                 PK     BIGINT                                           NOTNULL            AUTO_INCREMENT
+Marca                                 VARCHAR                                          NOTNULL
+Modello                               VARCHAR                                          NOTNULL
+Anno Prima Immatricolazione           DATE                                             NOTNULL
+Mano                                  TYNYINT                                          NOTNULL            DEFAULT 1
+Prezzo                                MEDIUMINT                                        NOTNULL
+Cilindrata                            SMALLINT                                         NOTNULL
+Alimentazione                         VARCHAR(3)  Es.: B,D,G,BG,IB,ID,PB,PD,MBM,E      NOTNULL
+Trazione                              VARCHAR(3)  Es.: A,A+P,I,P,P+A                   NOTNULL
+Cambio                                VARCHAR(1)  Es.: A,M,S,D                         NOTNULL
+Velocità Max                          SMALLINT                                         NOTNULL
+Consumo                               FLOAT(2,1)  Es.: 6,4L/100km, 4,5kg/100km         NOTNULL
+N°Telaio (VIN)                        VARCHAR(17) Es.: 3A2-687FR4-A856T4D2             NOTNULL            UNIQUE
